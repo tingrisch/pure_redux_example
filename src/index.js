@@ -50,6 +50,7 @@ const reducer = (state = initialState, action) => {
 //      - the store knows therfore who is handling the new state (the reducer) and the initial state
 const store = createStore(reducer);
 
+// THIS IS ONLY TO SEE SOMETHING
 // is called every time the store is updated
 store.subscribe(() => {
     console.log("store updated", store.getState());
